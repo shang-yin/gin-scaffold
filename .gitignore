@@ -1,0 +1,5 @@
+tmp
+tmp/*
+.vscode
+gin-scaffold
+logs/*
