@@ -1,0 +1,18 @@
+
+title = "gin-scaffold"
+version = 1.0
+
+
+[database]
+driver = "mysql"  # 不传 默认为MYSQL
+server = "127.0.0.1"
+port = 3306
+username = "root"
+password = "123456"
+dbname = "gin-scaffold"
+prefix = "g_"  # 表前缀
+charset = "utf8mb4"  # 字符集设置
+# 一般建议maxIdleConns的值为MaxOpenConns的1/2
+maxidleconns = 50  # 空闲连接池中连接的最大数量
+maxopenconns = 100 # 打开数据库连接的最大数量
+maxlifetime = 600 # 连接可复用的最大时间 默认单位 秒

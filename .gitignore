@@ -3,3 +3,6 @@ tmp/*
 .vscode
 gin-scaffold
 logs/*
+.idea
+.idea/*
+docs
